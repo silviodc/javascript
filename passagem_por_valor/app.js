@@ -1,6 +1,3 @@
-var number1;
-var number2;
-
 function userInput(number1, number2) {
     number1 = parseInt(document.getElementById("num1").value);
     console.log(number1);
@@ -15,7 +12,9 @@ function userInput(number1, number2) {
  */
 
 function calcMajorNumber() {
-    
+    var number1;
+    var number2;
+
     console.log(number1+ " "+number2 );
     userInput(number1, number2);
     console.log(number1+ " "+number2 );
